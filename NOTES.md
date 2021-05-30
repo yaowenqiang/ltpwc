@@ -9,3 +9,10 @@
 > 
 
 > clang++ a.cpp b.cpp -Werror
+
+> casting
+
+> static_cast<int>(d)
+> dynamic_cast<>
+> const_cast<>
+> reinterpret_cast<>

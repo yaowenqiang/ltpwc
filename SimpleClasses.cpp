@@ -7,7 +7,8 @@ using std::cout;
 int main()
 {
     Account a1;
-    a1.Deposit(90);
+    int const amount = 90;
+    a1.Deposit(amount);
 
     std::cout << "After depositing $90 "  <<
         "balance is " << a1.GetBalance() <<  std::endl;
