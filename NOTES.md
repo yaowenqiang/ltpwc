@@ -4,3 +4,8 @@
 > clang++ a.cpp b.cpp
 
 > https://en.cppreference.com/w/
+
+> #pragma once
+> 
+
+> clang++ a.cpp b.cpp -Werror

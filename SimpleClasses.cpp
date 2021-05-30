@@ -4,7 +4,7 @@ using std::cout;
 #include "Account.h"
 
 
-int main(int argc, char const* argv[])
+int main()
 {
     Account a1;
     a1.Deposit(90);

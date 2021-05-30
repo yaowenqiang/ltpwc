@@ -11,8 +11,10 @@ class Account
         Account();
         std::vector<std::string> Report();
         bool Deposit(int amount);
+
         bool Withdraw(int amount);
         int GetBalance() {return balance; }
-
 };
+
+
 
